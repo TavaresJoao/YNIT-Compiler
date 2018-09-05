@@ -1,0 +1,4 @@
+r@&d x ;
+read y ;
+soma := x + 5.0 ;
+write soma
