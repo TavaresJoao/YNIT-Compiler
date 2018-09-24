@@ -5,4 +5,8 @@ g++ -c main.cpp
 g++ -c token.cpp
 g++ -o main file.o lexical_analysis.o main.o token.o
 
-./main Instances/in_01.in
+for x in Instances/*
+do
+  echo $x;
+  ./main $x
+done

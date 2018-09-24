@@ -57,13 +57,6 @@ vector<pair<string,int>> read_file(string inFile)
     row++;
   }
 
-  /*
-  for(i=0; code.begin()+i!=code.end(); i++)
-  {
-    cout << code[i].first << '\t' << code[i].second << endl;
-  }
-  */
-
   mycode.close();
   return code;
 }

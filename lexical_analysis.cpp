@@ -115,16 +115,16 @@ int lexical_analyser(string inFile)
         if(verify_identifier(code[i].first)==IDENTIFIER_ERROR)
         {
           cout  << "Erro lexico na palavra: " << code[i].first
-                << ".Na linhna: " << code[i].second << endl;
+                << ". Na linhna: " << code[i].second << endl;
         }
         else
         {
           cout  << "Erro lexico no numero: " << code[i].first
-                << ".Na linha: " << code[i].second << endl;
+                << ". Na linha: " << code[i].second << endl;
         }
       }
       else
-        cout << reserved_word << '\t' << code[i].second << endl;
+        cout << "<" << reserved_word << "," << code[i].second << ">" << endl;
     }
   }
 
